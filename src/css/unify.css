@@ -1,0 +1,93 @@
+@font-face { 
+  font-family: "NanumSquareRoundB";
+  src: url("../assets/NanumSquareRoundB.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face { 
+  font-family: "NanumSquareRoundR";
+  src: url("../assets/NanumSquareRoundR.ttf") format("truetype");
+  font-weight: normal;
+}
+
+p {
+	margin-bottom: 0 !important;
+  font-family: 'NanumSquareRoundR';
+}
+
+.loading {
+  position: absolute;
+  top: 40%;
+  left: 42%;
+  z-index: 99999;
+}
+
+.petrunColor {
+  color: #85a5d4
+}
+.headerTitle {
+  font-family: 'NanumSquareRoundB', serif
+}
+.footerBackground {
+  background-color: #7a8dab;
+}
+.policy {
+  color: rgba(255, 255, 255, 0.8) !important;
+  text-decoration: none;
+}
+.policy:hover {
+  text-decoration: underline;
+}
+.bannerBackground {
+  background-color: #f5f6f8;
+  height: 435px;
+  margin-top: 90px
+}
+.bannerTitle {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: 'NanumSquareRoundB';
+}
+.sectionCategoryTitle {
+  font-size: 23px;
+  color: #85a5d4;
+  font-family: 'NanumSquareRoundB';
+}
+.sectionTitle {
+  font-size: 28px;
+  font-weight: 300;
+  font-family: 'NanumSquareRoundB';
+}
+.sectionSubTitle {
+  font-size: 14px;
+  font-family: 'NanumSquareRoundR';
+}
+
+.submitBtn {
+  width: 145px;
+  height: 45px;
+  background-color: #85a5d4;
+  border-radius: 5px;
+}
+
+@media (max-width:600px){
+  .bannerTitle {
+    font-size: 26px;
+  }
+  .headerTitle {
+    font-size: 14px;
+  }
+  .sectionCategoryTitle {
+    font-size: 23px;
+  }
+  .sectionTitle {
+    font-size: 20px;
+    margin-top: 12px;
+  }
+  .sectionSubTitle {
+    font-size: 15px;
+    margin-top: 12px;
+  }
+  .loading {
+    left: 34%;
+  }
+}
